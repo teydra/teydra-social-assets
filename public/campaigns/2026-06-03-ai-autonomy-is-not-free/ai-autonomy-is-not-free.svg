@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">Autonomie kostet</title>
+  <desc id="desc">Konzeptgrafik: eine einfache KI-Antwort gegen einen Agentenlauf mit mehreren Schleifen und steigender Kostenkurve.</desc>
+  <defs>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#1c1f24" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="meterGradient" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#2EC4B6"/>
+      <stop offset="0.55" stop-color="#F5C542"/>
+      <stop offset="1" stop-color="#FF6B5F"/>
+    </linearGradient>
+    <style>
+      .bg { fill: #F7F9F6; }
+      .ink { fill: #1C1F24; }
+      .muted { fill: #59616B; }
+      .small { font: 500 30px "DejaVu Sans", Arial, sans-serif; }
+      .label { font: 700 28px "DejaVu Sans", Arial, sans-serif; letter-spacing: 1px; }
+      .headline { font: 800 72px "DejaVu Sans", Arial, sans-serif; letter-spacing: 0; }
+      .subhead { font: 500 34px "DejaVu Sans", Arial, sans-serif; }
+      .nodeText { font: 700 26px "DejaVu Sans", Arial, sans-serif; fill: #1C1F24; }
+      .bottom { font: 800 54px "DejaVu Sans", Arial, sans-serif; letter-spacing: 0; }
+      .panel { fill: #FFFFFF; stroke-width: 4; filter: url(#softShadow); }
+      .line { fill: none; stroke: #1C1F24; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1080" height="1350"/>
+
+  <text x="70" y="116" class="headline ink">AUTONOMIE KOSTET</text>
+  <text x="74" y="168" class="subhead muted">Nicht jeder KI-Job braucht einen Agenten.</text>
+
+  <rect x="70" y="230" width="405" height="575" rx="28" class="panel" stroke="#2EC4B6"/>
+  <rect x="605" y="230" width="405" height="575" rx="28" class="panel" stroke="#FF6B5F"/>
+
+  <text x="110" y="290" class="label" fill="#168F86">EINFACHE ANTWORT</text>
+  <text x="645" y="290" class="label" fill="#C7463E">AGENTENLAUF</text>
+
+  <g transform="translate(115 360)">
+    <rect x="0" y="0" width="305" height="118" rx="26" fill="#DDF6F3" stroke="#2EC4B6" stroke-width="4"/>
+    <text x="28" y="48" class="nodeText">Frage rein</text>
+    <text x="28" y="88" class="small muted">Antwort raus</text>
+    <path d="M250,118 L280,148 L215,122" fill="#DDF6F3" stroke="#2EC4B6" stroke-width="4" stroke-linejoin="round"/>
+
+    <circle cx="153" cy="245" r="62" fill="#2EC4B6" opacity="0.16"/>
+    <circle cx="153" cy="245" r="42" fill="#2EC4B6"/>
+    <path d="M142 222 L174 245 L142 268 Z" fill="#F7F9F6"/>
+    <text x="72" y="345" class="small muted">ein Schritt</text>
+    <text x="58" y="387" class="small muted">klar messbar</text>
+  </g>
+
+  <g transform="translate(650 350)">
+    <rect x="0" y="0" width="145" height="62" rx="18" fill="#FFE8D6" stroke="#FF6B5F" stroke-width="4"/>
+    <text x="38" y="40" class="nodeText">Plan</text>
+    <rect x="210" y="0" width="145" height="62" rx="18" fill="#FFF5D1" stroke="#F5C542" stroke-width="4"/>
+    <text x="258" y="40" class="nodeText">Tool</text>
+    <rect x="210" y="135" width="145" height="62" rx="18" fill="#E7F5FF" stroke="#55A7E6" stroke-width="4"/>
+    <text x="242" y="175" class="nodeText">Check</text>
+    <rect x="0" y="135" width="145" height="62" rx="18" fill="#FFE8D6" stroke="#FF6B5F" stroke-width="4"/>
+    <text x="33" y="175" class="nodeText">Retry</text>
+    <rect x="102" y="235" width="145" height="62" rx="18" fill="#DDF6F3" stroke="#2EC4B6" stroke-width="4"/>
+    <text x="117" y="275" class="nodeText">Antwort</text>
+
+    <path class="line" d="M145 31 H210"/>
+    <path class="line" d="M282 62 V135"/>
+    <path class="line" d="M210 166 H145"/>
+    <path class="line" d="M72 197 C72 235 118 250 150 235"/>
+    <path class="line" d="M282 197 C280 236 235 250 210 235"/>
+    <path d="M178 31 L194 20 L194 42 Z" fill="#1C1F24"/>
+    <path d="M282 119 L270 103 H294 Z" fill="#1C1F24"/>
+    <path d="M161 166 L177 154 L177 178 Z" fill="#1C1F24"/>
+  </g>
+
+  <g transform="translate(665 700)">
+    <rect x="0" y="38" width="54" height="48" rx="10" fill="url(#meterGradient)" opacity="0.45"/>
+    <rect x="72" y="18" width="54" height="66" rx="10" fill="url(#meterGradient)" opacity="0.58"/>
+    <rect x="144" y="-8" width="54" height="94" rx="10" fill="url(#meterGradient)" opacity="0.75"/>
+    <rect x="216" y="-35" width="54" height="121" rx="10" fill="url(#meterGradient)"/>
+    <path d="M-8 92 H296" stroke="#1C1F24" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <text x="508" y="540" font-family="DejaVu Sans, Arial, sans-serif" font-size="72" font-weight="800" fill="#59616B">≠</text>
+
+  <rect x="70" y="890" width="940" height="190" rx="34" fill="#1C1F24"/>
+  <text x="112" y="966" class="bottom" fill="#FFFFFF">KI-Kosten sind</text>
+  <text x="112" y="1032" class="bottom" fill="#FFFFFF">Produktdesign.</text>
+  <circle cx="900" cy="986" r="58" fill="#2EC4B6"/>
+  <path d="M872 986 H928 M900 958 V1014" stroke="#1C1F24" stroke-width="12" stroke-linecap="round"/>
+
+  <text x="76" y="1215" class="small muted">Die Frage ist nicht nur: Was kann die KI?</text>
+  <text x="76" y="1260" class="small muted">Sondern: Wie viele Schleifen darf sie nehmen?</text>
+</svg>
