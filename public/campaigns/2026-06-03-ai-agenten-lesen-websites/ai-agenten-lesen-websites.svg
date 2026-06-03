@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080c18"/>
+      <stop offset="1" stop-color="#141e36"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .title{font:700 72px DejaVu Sans, Arial, sans-serif; fill:#eef2ff}
+      .sub{font:400 34px DejaVu Sans, Arial, sans-serif; fill:#94a3b8}
+      .h{font:700 36px DejaVu Sans, Arial, sans-serif}
+      .card{font:700 32px DejaVu Sans, Arial, sans-serif}
+      .small{font:400 28px DejaVu Sans, Arial, sans-serif}
+    </style>
+  </defs>
+  <rect width="1600" height="1600" fill="url(#bg)"/>
+  <circle cx="1459" cy="99" r="19" fill="#8b5cf6"/><circle cx="1509" cy="99" r="19" fill="#22d3ee"/><circle cx="1484" cy="144" r="19" fill="#3b82f6"/>
+  <text x="90" y="135" class="title">KI-Agenten lesen keine Absichten.</text>
+  <text x="94" y="190" class="sub">Sie folgen sichtbaren Entscheidungspfaden.</text>
+
+  <rect x="80" y="260" width="680" height="1110" rx="36" fill="#1c1222" stroke="#5b2136" stroke-width="4"/>
+  <rect x="840" y="260" width="680" height="1110" rx="36" fill="#0d232a" stroke="#155e50" stroke-width="4"/>
+  <line x1="800" y1="285" x2="800" y2="1340" stroke="#475569" stroke-width="2"/>
+
+  <text x="130" y="348" class="h" fill="#ffcdd2">Vage Website</text>
+  <text x="890" y="348" class="h" fill="#bbf7d0">Agentenlesbare Website</text>
+
+  <polygon points="375,500 430,635 458,586 517,582" fill="#ef4444" stroke="#fff" stroke-width="3" filter="url(#glow)"/>
+  <polygon points="1135,500 1190,635 1218,586 1277,582" fill="#2dd4bf" stroke="#fff" stroke-width="3" filter="url(#glow)"/>
+  <text x="320" y="690" class="small" fill="#fecaca">Agent rät.</text>
+  <text x="1080" y="690" class="small" fill="#ccfbf1">Agent versteht.</text>
+
+  <g fill="#301c30" stroke="#7f1d1d" stroke-width="3">
+    <rect x="170" y="440" width="250" height="105" rx="18"/><rect x="500" y="450" width="250" height="105" rx="18"/>
+    <rect x="175" y="710" width="250" height="105" rx="18"/><rect x="500" y="735" width="250" height="105" rx="18"/>
+    <rect x="330" y="995" width="250" height="105" rx="18"/>
+  </g>
+  <text x="192" y="505" class="card" fill="#fecaca">Mehr erfahren</text>
+  <text x="548" y="515" class="card" fill="#fecaca">PDF</text>
+  <text x="197" y="775" class="card" fill="#fecaca">Kontaktformular</text>
+  <text x="555" y="800" class="card" fill="#fecaca">später</text>
+  <text x="357" y="1060" class="card" fill="#fecaca">unklare Grenze</text>
+  <polyline points="390,650 280,650 280,760 620,760 620,610 530,610 530,850 300,850 300,1040 455,1040" fill="none" stroke="#f87171" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="175" y="1245" class="card" fill="#fecaca">Folge: falscher Schluss</text>
+  <text x="175" y="1295" class="card" fill="#fecaca">oder Abbruch</text>
+
+  <g fill="#0f3c44" stroke="#14b8a6" stroke-width="3">
+    <rect x="955" y="440" width="390" height="105" rx="18"/>
+    <rect x="955" y="610" width="390" height="105" rx="18"/>
+    <rect x="955" y="780" width="390" height="105" rx="18"/>
+    <rect x="955" y="950" width="390" height="105" rx="18"/>
+  </g>
+  <text x="981" y="505" class="card" fill="#ccfbf1">Preisrahmen</text>
+  <text x="981" y="675" class="card" fill="#ccfbf1">Voraussetzungen</text>
+  <text x="981" y="845" class="card" fill="#ccfbf1">Grenzen</text>
+  <text x="981" y="1015" class="card" fill="#ccfbf1">Nächster Schritt</text>
+  <g stroke="#4ade80" stroke-width="8" stroke-linecap="round" fill="#4ade80">
+    <line x1="1150" y1="548" x2="1150" y2="600"/><polygon points="1150,606 1132,582 1168,582"/>
+    <line x1="1150" y1="718" x2="1150" y2="770"/><polygon points="1150,776 1132,752 1168,752"/>
+    <line x1="1150" y1="888" x2="1150" y2="940"/><polygon points="1150,946 1132,922 1168,922"/>
+  </g>
+  <text x="955" y="1245" class="card" fill="#bbf7d0">Folge: richtige</text>
+  <text x="955" y="1295" class="card" fill="#bbf7d0">Entscheidung</text>
+
+  <rect x="250" y="1410" width="1100" height="100" rx="28" fill="#111827" stroke="#6366f1" stroke-width="3"/>
+  <text x="300" y="1473" class="h" fill="#eef2ff">Agentenlesbarkeit = Klarheit dort, wo Entscheidungen entstehen.</text>
+</svg>
