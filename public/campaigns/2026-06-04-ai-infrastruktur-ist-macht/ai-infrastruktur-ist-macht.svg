@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">AI-Infrastruktur ist Macht</title>
+  <desc id="desc">Konzeptgrafik: Ein kleiner AI-Tool-Layer liegt auf einer schweren Infrastruktur-Schicht aus Strom, Rechenzentrum, Chip, Standort und Exportregeln.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#18222E" flood-opacity="0.16"/>
+    </filter>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DCE6EC"/>
+    </linearGradient>
+    <linearGradient id="load" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EF4E45"/>
+      <stop offset="1" stop-color="#18222E"/>
+    </linearGradient>
+    <style>
+      .bg { fill: #F4F7F1; }
+      .ink { fill: #18222E; }
+      .muted { fill: #58636F; }
+      .headline { font: 800 69px "DejaVu Sans", Arial, sans-serif; letter-spacing: 0; }
+      .subhead { font: 600 34px "DejaVu Sans", Arial, sans-serif; letter-spacing: 0; }
+      .label { font: 800 27px "DejaVu Sans", Arial, sans-serif; letter-spacing: 1px; }
+      .small { font: 650 26px "DejaVu Sans", Arial, sans-serif; letter-spacing: 0; }
+      .micro { font: 700 22px "DejaVu Sans", Arial, sans-serif; letter-spacing: 0; }
+      .punch { font: 850 56px "DejaVu Sans", Arial, sans-serif; letter-spacing: 0; }
+      .card { fill: #FFFFFF; stroke: #18222E; stroke-width: 4; filter: url(#shadow); }
+      .line { fill: none; stroke: #18222E; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { fill: none; stroke: #18222E; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1080" height="1350"/>
+
+  <g transform="translate(72 78)">
+    <text x="0" y="0" class="label" fill="#EF4E45">AI-STRATEGIE</text>
+    <text x="0" y="74" class="headline ink">Nicht nur</text>
+    <text x="0" y="148" class="headline ink">Modellwahl.</text>
+    <text x="0" y="205" class="subhead muted">Der harte Teil liegt darunter.</text>
+  </g>
+
+  <g transform="translate(185 315)">
+    <rect x="145" y="0" width="500" height="122" rx="28" fill="url(#steel)" stroke="#18222E" stroke-width="5" filter="url(#shadow)"/>
+    <text x="220" y="50" class="label ink">AI TOOL</text>
+    <text x="220" y="88" class="small muted">Prompt · Modell</text>
+    <circle cx="584" cy="60" r="32" fill="#43B8B1"/>
+    <path d="M570 60 H598 M584 46 V74" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+
+    <path d="M395 138 V238" stroke="url(#load)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M358 218 L395 266 L432 218" fill="#18222E"/>
+    <text x="457" y="215" class="micro muted">traegt Gewicht</text>
+  </g>
+
+  <g transform="translate(80 580)">
+    <rect x="0" y="0" width="920" height="430" rx="38" fill="#18222E" filter="url(#shadow)"/>
+    <text x="48" y="67" class="label" fill="#FFFFFF">UNSICHTBARE INFRASTRUKTUR</text>
+
+    <g transform="translate(48 112)">
+      <rect x="0" y="0" width="150" height="130" rx="24" fill="#F6C64E"/>
+      <path d="M54 31 v34 h40 v-34 M74 65 v32 M52 97 h44" class="thin"/>
+      <text x="29" y="165" class="small" fill="#FFFFFF">Strom</text>
+    </g>
+
+    <g transform="translate(222 112)">
+      <rect x="0" y="0" width="150" height="130" rx="24" fill="#43B8B1"/>
+      <rect x="42" y="28" width="66" height="74" rx="10" fill="#E8FBF8" stroke="#18222E" stroke-width="4"/>
+      <path d="M54 45 H96 M54 64 H96 M54 83 H96" class="thin"/>
+      <circle cx="99" cy="45" r="4" fill="#EF4E45"/>
+      <circle cx="99" cy="64" r="4" fill="#EF4E45"/>
+      <circle cx="99" cy="83" r="4" fill="#EF4E45"/>
+      <text x="6" y="165" class="small" fill="#FFFFFF">Data Center</text>
+    </g>
+
+    <g transform="translate(396 112)">
+      <rect x="0" y="0" width="150" height="130" rx="24" fill="#5B8DEF"/>
+      <rect x="42" y="30" width="66" height="66" rx="12" fill="#EAF1FF" stroke="#18222E" stroke-width="4"/>
+      <path d="M54 62 H96 M75 42 V84" class="thin"/>
+      <path d="M42 21 V8 M62 21 V8 M82 21 V8 M102 21 V8 M42 122 V108 M62 122 V108 M82 122 V108 M102 122 V108" stroke="#18222E" stroke-width="4"/>
+      <text x="44" y="165" class="small" fill="#FFFFFF">Chips</text>
+    </g>
+
+    <g transform="translate(570 112)">
+      <rect x="0" y="0" width="150" height="130" rx="24" fill="#EF4E45"/>
+      <path d="M75 27 C52 27 40 44 40 62 C40 91 75 108 75 108 C75 108 110 91 110 62 C110 44 98 27 75 27 Z" fill="#FFE9E2" stroke="#18222E" stroke-width="4"/>
+      <circle cx="75" cy="62" r="15" fill="#18222E"/>
+      <text x="21" y="165" class="small" fill="#FFFFFF">Standort</text>
+    </g>
+
+    <g transform="translate(744 112)">
+      <rect x="0" y="0" width="128" height="130" rx="24" fill="#FFFFFF"/>
+      <rect x="23" y="34" width="82" height="55" rx="9" fill="#FFE9E2" stroke="#18222E" stroke-width="4"/>
+      <path d="M36 52 H92 M36 70 H78" class="thin"/>
+      <path d="M34 100 L102 24" stroke="#EF4E45" stroke-width="8" stroke-linecap="round"/>
+      <text x="23" y="165" class="small" fill="#FFFFFF">Regeln</text>
+    </g>
+
+    <path d="M68 332 H842" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.38"/>
+    <text x="49" y="386" class="subhead" fill="#FFFFFF">Wer nur Prompts diskutiert, kommt zu spät.</text>
+  </g>
+
+  <g transform="translate(80 1068)">
+    <rect x="0" y="0" width="920" height="176" rx="34" fill="#FFFFFF" stroke="#18222E" stroke-width="5"/>
+    <text x="42" y="70" class="punch ink">Infrastruktur</text>
+    <text x="42" y="136" class="punch ink">ist Macht.</text>
+    <circle cx="801" cy="88" r="58" fill="#EF4E45"/>
+    <path d="M774 88 H828 M801 61 V115" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round"/>
+  </g>
+
+  <text x="80" y="1288" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#58636F">Konzeptionelle Grafik · Quellen: IEA, EU-Kommission, Stanford HAI, U.S. DOC/BIS</text>
+</svg>
