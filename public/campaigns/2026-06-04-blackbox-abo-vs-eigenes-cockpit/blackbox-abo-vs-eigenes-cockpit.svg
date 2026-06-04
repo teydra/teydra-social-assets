@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#12293a"/>
+      <stop offset="100%" stop-color="#06101b"/>
+    </radialGradient>
+    <linearGradient id="right" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0d3140"/>
+      <stop offset="100%" stop-color="#0a4a4b"/>
+    </linearGradient>
+    <filter id="softGlow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .font { font-family: Inter, DejaVu Sans, Arial, sans-serif; }
+      .small { font-size: 24px; }
+      .label { font-size: 28px; font-weight: 700; }
+      .headline { font-size: 43px; font-weight: 800; }
+    </style>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+
+  <text x="70" y="92" class="font headline" fill="#ecfbff">Bequem ist nicht dasselbe</text>
+  <text x="70" y="142" class="font headline" fill="#32e6d2">wie kontrollierbar.</text>
+  <text x="70" y="188" class="font small" fill="#92bac7">Ein Website-Bot nach dem Launch: Blackbox oder eigenes Cockpit?</text>
+
+  <!-- left blackbox subscription -->
+  <rect x="72" y="258" width="420" height="570" rx="38" fill="#0b111c" stroke="#324052" stroke-width="3" opacity="0.98"/>
+  <text x="112" y="322" class="font label" fill="#ffb4a8">Blackbox-Abo</text>
+  <rect x="142" y="398" width="280" height="219" rx="28" fill="#070b12" stroke="#687280" stroke-width="4"/>
+  <path d="M165 398 L204 350 L390 350 L422 398 Z" fill="#111927" stroke="#687280" stroke-width="4"/>
+  <circle cx="282" cy="493" r="54" fill="#131d2b" stroke="#ff7b63" stroke-width="6"/>
+  <text x="263" y="513" class="font" font-size="64" font-weight="800" fill="#ffb4a8">?</text>
+  <rect x="122" y="660" width="320" height="50" rx="15" fill="#172131" stroke="#3b4a5d"/>
+  <text x="150" y="694" class="font small" fill="#a7b3c1">Tonänderung: Ticket</text>
+  <rect x="122" y="728" width="320" height="50" rx="15" fill="#172131" stroke="#3b4a5d"/>
+  <text x="150" y="762" class="font small" fill="#a7b3c1">Wissensquelle: Ticket</text>
+  <rect x="122" y="796" width="320" height="50" rx="15" fill="#172131" stroke="#3b4a5d"/>
+  <text x="150" y="830" class="font small" fill="#a7b3c1">Kostenfrage: Ticket</text>
+
+  <!-- center arrow -->
+  <text x="477" y="515" class="font" font-size="23" fill="#8bd9e9" text-anchor="middle" transform="rotate(-90 477 515)">nach dem Launch</text>
+  <path d="M514 518 L562 518" stroke="#32e6d2" stroke-width="8" stroke-linecap="round" stroke-dasharray="12 14"/>
+  <path d="M557 492 L590 518 L557 544" fill="none" stroke="#32e6d2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- right cockpit -->
+  <rect x="590" y="258" width="420" height="570" rx="38" fill="url(#right)" stroke="#32e6d2" stroke-width="4" filter="url(#softGlow)"/>
+  <text x="630" y="322" class="font label" fill="#dffeff">Eigenes Bot-Cockpit</text>
+  <g class="font">
+    <rect x="640" y="372" width="320" height="74" rx="22" fill="#092532" stroke="#6ff5e8" stroke-width="2"/>
+    <text x="667" y="417" font-size="28" font-weight="700" fill="#ecfbff">Wissen</text>
+    <line x1="790" y1="409" x2="925" y2="409" stroke="#93b5c2" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="875" cy="409" r="17" fill="#32e6d2"/>
+
+    <rect x="640" y="475" width="320" height="74" rx="22" fill="#092532" stroke="#6ff5e8" stroke-width="2"/>
+    <text x="667" y="520" font-size="28" font-weight="700" fill="#ecfbff">Ton</text>
+    <line x1="790" y1="512" x2="925" y2="512" stroke="#93b5c2" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="835" cy="512" r="17" fill="#32e6d2"/>
+
+    <rect x="640" y="578" width="320" height="74" rx="22" fill="#092532" stroke="#6ff5e8" stroke-width="2"/>
+    <text x="667" y="623" font-size="28" font-weight="700" fill="#ecfbff">Modell</text>
+    <line x1="790" y1="615" x2="925" y2="615" stroke="#93b5c2" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="895" cy="615" r="17" fill="#32e6d2"/>
+
+    <rect x="640" y="681" width="320" height="74" rx="22" fill="#092532" stroke="#6ff5e8" stroke-width="2"/>
+    <text x="667" y="726" font-size="28" font-weight="700" fill="#ecfbff">Kosten</text>
+    <line x1="790" y1="718" x2="925" y2="718" stroke="#93b5c2" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="815" cy="718" r="17" fill="#32e6d2"/>
+  </g>
+
+  <text x="90" y="930" class="font" font-size="33" font-weight="800" fill="#ecfbff">Bequemlichkeit ist gut.</text>
+  <text x="90" y="976" class="font" font-size="33" font-weight="800" fill="#ffb4a8">Abhängigkeit ist teuer.</text>
+  <text x="635" y="953" class="font" font-size="25" fill="#9feee9">Wissen · Ton · Modell · Kosten</text>
+  <text x="635" y="990" class="font" font-size="25" fill="#dffeff">sichtbar steuerbar halten</text>
+  <rect x="626" y="997" width="320" height="34" rx="12" fill="#08222d" stroke="#2aa8a6" opacity="0.92"/>
+  <text x="645" y="1021" class="font" font-size="20" font-weight="700" fill="#bffcff">Konzeptgrafik, kein Produktscreen</text>
+</svg>
