@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <radialGradient id="bg" cx="45%" cy="42%" r="78%">
+      <stop offset="0" stop-color="#21151a"/>
+      <stop offset="0.55" stop-color="#0d1118"/>
+      <stop offset="1" stop-color="#07090d"/>
+    </radialGradient>
+    <filter id="redglow"><feGaussianBlur stdDeviation="13" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .h{font-family:DejaVu Sans,Inter,Arial,sans-serif;font-weight:700;fill:#f4f0e8}
+      .p{font-family:DejaVu Sans,Inter,Arial,sans-serif;font-weight:400;fill:#c9d3df}
+      .nodeText{font-family:DejaVu Sans,Inter,Arial,sans-serif;font-size:30px;font-weight:700;fill:#f4f0e8;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+  <text x="72" y="275" class="h" font-size="92">Hier bricht</text>
+  <text x="72" y="380" class="h" font-size="92">sie oft.</text>
+  <text x="72" y="482" class="p" font-size="36">Beim Weiterreichen, nicht erst beim Erzeugen.</text>
+
+  <line x1="170" y1="930" x2="498" y2="930" stroke="#2fe6ff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M498 930 L565 890 L610 963 L676 910" stroke="#ff4d5d" stroke-width="10" stroke-linecap="round" fill="none" filter="url(#redglow)"/>
+  <line x1="720" y1="930" x2="910" y2="930" stroke="#344052" stroke-width="8" stroke-linecap="round" stroke-dasharray="22 24"/>
+
+  <circle cx="170" cy="930" r="64" fill="#111a25" stroke="#2fe6ff" stroke-width="4"/><text x="170" y="942" class="nodeText">Quelle</text>
+  <circle cx="390" cy="930" r="64" fill="#111a25" stroke="#2fe6ff" stroke-width="4"/><text x="390" y="942" class="nodeText">Signatur</text>
+  <circle cx="620" cy="930" r="86" fill="#211015" stroke="#ff4d5d" stroke-width="5"/><text x="620" y="942" class="nodeText">Upload</text>
+  <circle cx="910" cy="930" r="64" fill="#111a25" stroke="#566173" stroke-width="4"/><text x="910" y="942" class="nodeText">Feed</text>
+
+  <rect x="92" y="1245" width="892" height="360" rx="34" fill="#111721" stroke="#ff4d5d" stroke-width="3"/>
+  <text x="132" y="1322" class="h" font-size="42" fill="#ffebe5">Metadaten koennen verschwinden:</text>
+  <text x="132" y="1406" class="p" font-size="34">Upload</text>
+  <text x="332" y="1406" class="p" font-size="34">Repost</text>
+  <text x="532" y="1406" class="p" font-size="34">Screenshot</text>
+  <text x="132" y="1486" class="p" font-size="34">Resize</text>
+  <text x="332" y="1486" class="p" font-size="34">Kompression</text>
+  <text x="132" y="1690" class="h" font-size="40">Dann sieht man ein Label,</text>
+  <text x="132" y="1752" class="h" font-size="40">aber nicht mehr die Geschichte.</text>
+</svg>
