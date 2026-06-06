@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#12333a"/>
+      <stop offset="0.52" stop-color="#071316"/>
+      <stop offset="1" stop-color="#020506"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" x2="1">
+      <stop offset="0" stop-color="#0d2227"/>
+      <stop offset="1" stop-color="#0a171b"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .sans{font-family:Inter,Arial,Helvetica,sans-serif}.title{font-size:58px;font-weight:760;fill:#f5fff9;letter-spacing:-1.5px}.sub{font-size:28px;fill:#a9c7c4}.lane{font-size:28px;font-weight:700;fill:#dff8ed}.small{font-size:22px;fill:#97aaa7}.tiny{font-size:18px;fill:#7b918d}.label{font-size:20px;font-weight:700;fill:#071316}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    </style>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <circle cx="175" cy="900" r="230" fill="#0de6a8" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="915" cy="165" r="240" fill="#67f4cc" opacity="0.08" filter="url(#glow)"/>
+
+  <text x="72" y="102" class="sans title">Human Handover</text>
+  <text x="72" y="150" class="sans sub">ist kein Notausgang.</text>
+  <text x="72" y="201" class="sans small">Der kritische Moment liegt zwischen Bot und Mensch.</text>
+
+  <rect x="70" y="265" width="940" height="575" rx="34" fill="url(#card)" stroke="#1f474a" stroke-width="2"/>
+  <line x1="382" y1="300" x2="382" y2="805" stroke="#21494b" stroke-width="2" stroke-dasharray="10 14"/>
+  <line x1="696" y1="300" x2="696" y2="805" stroke="#21494b" stroke-width="2" stroke-dasharray="10 14"/>
+
+  <text x="142" y="330" class="sans lane">BOT</text>
+  <text x="440" y="330" class="sans lane">UNKLAR</text>
+  <text x="756" y="330" class="sans lane">MENSCH</text>
+
+  <rect x="116" y="390" width="210" height="112" rx="20" fill="#102f35" stroke="#35e8b7" stroke-width="3"/>
+  <text x="145" y="437" class="sans small">Antwortet</text>
+  <text x="145" y="472" class="sans tiny">ohne Kontextgrenze</text>
+
+  <rect x="755" y="395" width="205" height="110" rx="20" fill="#102f35" stroke="#35e8b7" stroke-width="3"/>
+  <text x="786" y="442" class="sans small">Übernimmt</text>
+  <text x="786" y="477" class="sans tiny">aber bei null?</text>
+
+  <path d="M330 446 C405 446, 433 446, 470 446" stroke="#35e8b7" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.82"/>
+  <path d="M612 446 C650 446, 681 446, 748 446" stroke="#35e8b7" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.30" stroke-dasharray="16 18"/>
+  <polygon points="748,446 724,432 724,460" fill="#35e8b7" opacity="0.42"/>
+
+  <g filter="url(#glow)">
+    <rect x="425" y="545" width="230" height="142" rx="23" fill="#ff4d5e"/>
+    <text x="463" y="594" class="sans label">ÜBERGABE?</text>
+    <text x="459" y="632" class="sans" font-size="24" fill="#1a0508">Zeitpunkt fehlt</text>
+    <text x="459" y="664" class="sans" font-size="24" fill="#1a0508">Kontext fehlt</text>
+  </g>
+
+  <path d="M542 522 L542 474" stroke="#ff9aa4" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 10"/>
+  <text x="400" y="742" class="sans small" fill="#f5fff9">Ein Button ist noch kein Verantwortungswechsel.</text>
+  <text x="400" y="781" class="sans tiny">Designfrage: Wann stoppen? Was übergeben? Was sieht der Kunde?</text>
+
+  <rect x="70" y="882" width="940" height="95" rx="28" fill="#071316" stroke="#1c3a3d"/>
+  <text x="104" y="927" class="sans small" fill="#f5fff9">These:</text>
+  <text x="190" y="927" class="sans small" fill="#d8fff2">Ein Mensch im Loop hilft nur, wenn der Loop designt ist.</text>
+  <text x="104" y="959" class="sans tiny">Virtuelle Produktvisualisierung · Teydra Lab</text>
+</svg>
