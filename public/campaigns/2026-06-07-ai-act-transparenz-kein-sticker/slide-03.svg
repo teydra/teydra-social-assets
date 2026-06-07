@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<style>
+@font-face { font-family: Inter; src: local('DejaVu Sans'); }
+.bg { fill: #071019; }
+.card { fill: #0d1b2a; stroke: #35d6c7; stroke-width: 3; }
+.card2 { fill: #111827; stroke: #f6b84b; stroke-width: 3; }
+.h { font-family: Inter, DejaVu Sans, Arial, sans-serif; font-weight: 800; font-size: 82px; fill: #f7fbff; letter-spacing: -1px; }
+.body { font-family: Inter, DejaVu Sans, Arial, sans-serif; font-size: 34px; fill: #cbd7e3; }
+.small { font-family: Inter, DejaVu Sans, Arial, sans-serif; font-size: 27px; fill: #89a4b8; }
+.badge { font-family: Inter, DejaVu Sans, Arial, sans-serif; font-weight: 800; font-size: 38px; fill: #071019; }
+.num { font-family: Inter, DejaVu Sans, Arial, sans-serif; font-size: 28px; fill: #35d6c7; }
+</style>
+<rect class="bg" width="1080" height="1350"/>
+<circle cx="900" cy="190" r="210" fill="#12384a" opacity="0.45"/>
+<circle cx="160" cy="1160" r="280" fill="#2a1c0a" opacity="0.55"/>
+<rect x="70" y="70" width="940" height="1210" rx="46" fill="#091827" stroke="#1e3b4d" stroke-width="2"/>
+<text x="94" y="126" class="num">TEYDRA LAB · AI ACT TRANSPARENZ · 3/4</text>
+<rect x="145" y="430" width="790" height="108" rx="26" class="card" opacity="0.95"/><text x="190" y="498" class="body" style="font-size:42px;fill:#f7fbff">Kann der Bot das?</text>
+<rect x="145" y="585" width="790" height="108" rx="26" class="card" opacity="0.87"/><text x="190" y="653" class="body" style="font-size:42px;fill:#f7fbff">Wo ist die Grenze?</text>
+<rect x="145" y="740" width="790" height="108" rx="26" class="card" opacity="0.7899999999999999"/><text x="190" y="808" class="body" style="font-size:42px;fill:#f7fbff">Wann kommt ein Mensch?</text>
+<text x="105" y="245" class="h">Der erste Kontakt</text>
+<text x="105" y="341" class="h">braucht drei Antworten.</text><text x="105" y="1010" class="body">Kann der Bot das?</text>
+<text x="105" y="1063" class="body">Wo ist die Grenze?</text>
+<text x="105" y="1116" class="body">Wann kommt ein Mensch?</text><text x="105" y="1228" class="small">Kein Fake-UI. Keine Rechtsberatung. Ein Betreiber-Gedanke.</text>
+</svg>

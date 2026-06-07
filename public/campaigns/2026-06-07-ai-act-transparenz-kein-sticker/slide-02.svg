@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<style>
+@font-face { font-family: Inter; src: local('DejaVu Sans'); }
+.bg { fill: #071019; }
+.card { fill: #0d1b2a; stroke: #35d6c7; stroke-width: 3; }
+.card2 { fill: #111827; stroke: #f6b84b; stroke-width: 3; }
+.h { font-family: Inter, DejaVu Sans, Arial, sans-serif; font-weight: 800; font-size: 82px; fill: #f7fbff; letter-spacing: -1px; }
+.body { font-family: Inter, DejaVu Sans, Arial, sans-serif; font-size: 34px; fill: #cbd7e3; }
+.small { font-family: Inter, DejaVu Sans, Arial, sans-serif; font-size: 27px; fill: #89a4b8; }
+.badge { font-family: Inter, DejaVu Sans, Arial, sans-serif; font-weight: 800; font-size: 38px; fill: #071019; }
+.num { font-family: Inter, DejaVu Sans, Arial, sans-serif; font-size: 28px; fill: #35d6c7; }
+</style>
+<rect class="bg" width="1080" height="1350"/>
+<circle cx="900" cy="190" r="210" fill="#12384a" opacity="0.45"/>
+<circle cx="160" cy="1160" r="280" fill="#2a1c0a" opacity="0.55"/>
+<rect x="70" y="70" width="940" height="1210" rx="46" fill="#091827" stroke="#1e3b4d" stroke-width="2"/>
+<text x="94" y="126" class="num">TEYDRA LAB · AI ACT TRANSPARENZ · 2/4</text>
+<rect x="135" y="450" width="390" height="350" rx="36" class="card2"/>
+<rect x="565" y="450" width="390" height="350" rx="36" class="card"/>
+<text x="218" y="620" class="h" style="font-size:60px">Sticker</text>
+<text x="625" y="620" class="h" style="font-size:60px">Verstehen</text>
+<path d="M510 625 L570 625" stroke="#f7fbff" stroke-width="5" opacity="0.65"/>
+<text x="105" y="245" class="h">Sticker ≠</text>
+<text x="105" y="341" class="h">Verstehen</text><text x="105" y="1010" class="body">„Du sprichst mit KI“ ist erst der Anfang.</text>
+<text x="105" y="1063" class="body">Die Entscheidung des Nutzers beginnt danach.</text><text x="105" y="1228" class="small">Kein Fake-UI. Keine Rechtsberatung. Ein Betreiber-Gedanke.</text>
+</svg>
