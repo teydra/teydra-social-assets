@@ -1,0 +1,43 @@
+{
+  "post_id": "2026-06-08-originaldaten-sind-infrastruktur",
+  "asset_type": "video",
+  "format": "slideshow_mp4",
+  "slides": [
+    "slide-01.png",
+    "slide-02.png",
+    "slide-03.png",
+    "slide-04.png",
+    "slide-05.png"
+  ],
+  "video": "slideshow.mp4",
+  "license": "Teydra-owned generated editorial graphic; no third-party media; no audio",
+  "visual_disclosure_label": "none",
+  "truthfulness": "Abstract illustration; no product UI, customers, metrics, or real event claims.",
+  "slides_text": [
+    {
+      "slide": 1,
+      "headline": "Billiger / KI-Content / kann teuer / werden.",
+      "subline": "Nicht schneller schreiben. / Besser wissen."
+    },
+    {
+      "slide": 2,
+      "headline": "Das Web / frisst seine / eigenen Kopien.",
+      "subline": "Viele graue Karten. / Wenig echte Herkunft."
+    },
+    {
+      "slide": 3,
+      "headline": "Zuerst / verschwinden / die Ränder.",
+      "subline": "Seltene Fälle. Lokale Details. / Echte Ausnahmen."
+    },
+    {
+      "slide": 4,
+      "headline": "Mehr Text / ist nicht / der Engpass.",
+      "subline": "Saubere Originalinformation / ist der knappe Teil."
+    },
+    {
+      "slide": 5,
+      "headline": "Was können / nur Sie / verlässlich / liefern?",
+      "subline": "Originalität wird Infrastruktur."
+    }
+  ]
+}
