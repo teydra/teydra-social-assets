@@ -1,0 +1,32 @@
+{
+  "slug": "2026-06-13-agentic-commerce-checkout-vertrauen",
+  "type": "carousel",
+  "slides": [
+    {
+      "file": "slide-01.png",
+      "title": "Der nächste\nKaufbutton\nklickt vielleicht\nnicht mehr\nder Kunde.",
+      "notes": "Ein Agent-Cursor nähert sich dem BUY-Button — der Moment wirkt bequem, aber nicht harmlos."
+    },
+    {
+      "file": "slide-02.png",
+      "title": "Der alte Funnel\nrechnete mit\neinem Menschen\nam Button.",
+      "notes": "Aufmerksamkeit → Produktseite → Warenkorb → Klick. Diese Annahme bricht, wenn ein Agent kauft."
+    },
+    {
+      "file": "slide-03.png",
+      "title": "Ein Agent braucht\nnicht nur Zugriff.\nEr braucht\nbeweisbare\nErlaubnis.",
+      "notes": "Consent/Mandat statt bloßer Session: Budget, Produkt, Zeitraum, Ausnahmefälle."
+    },
+    {
+      "file": "slide-04.png",
+      "title": "Drei Fragen\nwerden teurer\nals der Klick.",
+      "notes": "Was war erlaubt? War der Preisrahmen gültig? Wer haftet, wenn der Agent falsch bestellt?"
+    },
+    {
+      "file": "slide-05.png",
+      "title": "Der Buy-Button\nwird zum\nBeweisstück.",
+      "notes": "Agentic Commerce ist kein Checkout-Upgrade. Es ist Vertrauensinfrastruktur."
+    }
+  ],
+  "license": "Original Teydra generated graphic; no third-party media; no real logos or UI."
+}

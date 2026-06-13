@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06101f"/><stop offset="0.55" stop-color="#09172c"/><stop offset="1" stop-color="#140b20"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="orb" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ff8a3d" stop-opacity="0.95"/><stop offset="1" stop-color="#ff8a3d" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1080" height="1080" fill="url(#bg)"/>
+<circle cx="830" cy="330" r="260" fill="url(#orb)" opacity="0.32"/>
+<circle cx="190" cy="900" r="230" fill="#20d5ff" opacity="0.08"/>
+<rect x="54" y="54" width="972" height="972" rx="42" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+<text x="82" y="116" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#8ea2bd">TEYDRA / MARKET NOTE</text>
+<text x="930" y="116" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" fill="#ff8a3d">04/05</text>
+<rect x="585" y="383" width="395" height="88" rx="25" fill="#101c32" stroke="#ff8a3d" stroke-opacity="0.7"/><text x="625" y="445" font-family="Inter, Arial" font-size="36" font-weight="850" fill="#f8fbff">ERLAUBNIS?</text><rect x="585" y="508" width="395" height="88" rx="25" fill="#101c32" stroke="#ff8a3d" stroke-opacity="0.5499999999999999"/><text x="625" y="570" font-family="Inter, Arial" font-size="36" font-weight="850" fill="#f8fbff">PREISRAHMEN?</text><rect x="585" y="633" width="395" height="88" rx="25" fill="#101c32" stroke="#ff8a3d" stroke-opacity="0.39999999999999997"/><text x="625" y="695" font-family="Inter, Arial" font-size="36" font-weight="850" fill="#f8fbff">HAFTUNG?</text>
+<text x="82" y="260" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="800" fill="#f8fbff" letter-spacing="-1.5">Drei Fragen</text>
+<text x="82" y="340" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="800" fill="#f8fbff" letter-spacing="-1.5">werden teurer</text>
+<text x="82" y="420" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="800" fill="#f8fbff" letter-spacing="-1.5">als der Klick.</text>
+<text x="86" y="790" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="520" fill="#b7c4d6">Was war erlaubt? War der Preisrahmen</text>
+<text x="86" y="832" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="520" fill="#b7c4d6">gültig? Wer haftet, wenn der Agent falsch</text>
+<text x="86" y="874" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="520" fill="#b7c4d6">bestellt?</text>
+<text x="82" y="988" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#53657d">Agentic Commerce / Zustimmung / Vertrauen</text>
+</svg>

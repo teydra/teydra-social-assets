@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06101f"/><stop offset="0.55" stop-color="#09172c"/><stop offset="1" stop-color="#140b20"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="orb" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#20d5ff" stop-opacity="0.95"/><stop offset="1" stop-color="#20d5ff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1080" height="1080" fill="url(#bg)"/>
+<circle cx="830" cy="255" r="260" fill="url(#orb)" opacity="0.32"/>
+<circle cx="190" cy="900" r="230" fill="#20d5ff" opacity="0.08"/>
+<rect x="54" y="54" width="972" height="972" rx="42" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+<text x="82" y="116" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#8ea2bd">TEYDRA / MARKET NOTE</text>
+<text x="930" y="116" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" fill="#20d5ff">02/05</text>
+<g opacity="0.95"><rect x="595" y="505" width="360" height="86" rx="25" fill="#101c32" stroke="#20d5ff" stroke-opacity="0.55"/><rect x="650" y="632" width="250" height="72" rx="22" fill="#101c32" stroke="#20d5ff" stroke-opacity="0.35"/><rect x="708" y="744" width="135" height="70" rx="22" fill="#ff8a3d"/><path d="M774 590 V632 M774 704 V744" stroke="#8ea2bd" stroke-width="6" stroke-dasharray="14 14"/></g>
+<text x="82" y="260" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="800" fill="#f8fbff" letter-spacing="-1.5">Der alte Funnel</text>
+<text x="82" y="340" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="800" fill="#f8fbff" letter-spacing="-1.5">rechnete mit</text>
+<text x="82" y="420" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="800" fill="#f8fbff" letter-spacing="-1.5">einem Menschen</text>
+<text x="82" y="500" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="800" fill="#f8fbff" letter-spacing="-1.5">am Button.</text>
+<text x="86" y="790" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="520" fill="#b7c4d6">Aufmerksamkeit → Produktseite → Warenkorb</text>
+<text x="86" y="832" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="520" fill="#b7c4d6">→ Klick. Diese Annahme bricht, wenn ein</text>
+<text x="86" y="874" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="520" fill="#b7c4d6">Agent kauft.</text>
+<text x="82" y="988" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#53657d">Agentic Commerce / Zustimmung / Vertrauen</text>
+</svg>

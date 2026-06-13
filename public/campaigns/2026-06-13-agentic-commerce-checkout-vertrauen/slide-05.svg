@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06101f"/><stop offset="0.55" stop-color="#09172c"/><stop offset="1" stop-color="#140b20"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="orb" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ff8a3d" stop-opacity="0.95"/><stop offset="1" stop-color="#ff8a3d" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1080" height="1080" fill="url(#bg)"/>
+<circle cx="785" cy="330" r="260" fill="url(#orb)" opacity="0.32"/>
+<circle cx="190" cy="900" r="230" fill="#20d5ff" opacity="0.08"/>
+<rect x="54" y="54" width="972" height="972" rx="42" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"/>
+<text x="82" y="116" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#8ea2bd">TEYDRA / MARKET NOTE</text>
+<text x="930" y="116" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" fill="#ff8a3d">05/05</text>
+<g><rect x="575" y="468" width="385" height="170" rx="38" fill="#ff8a3d" filter="url(#glow)"/><text x="654" y="570" font-family="Inter, Arial" font-size="55" font-weight="950" fill="#11131b">BUY</text><path d="M620 705 H925" stroke="#20d5ff" stroke-width="13" stroke-linecap="round"/><circle cx="620" cy="705" r="21" fill="#20d5ff"/><circle cx="772" cy="705" r="21" fill="#20d5ff"/><circle cx="925" cy="705" r="21" fill="#20d5ff"/><text x="610" y="770" font-family="Inter, Arial" font-size="26" font-weight="700" fill="#8ea2bd">INTENT → CONSENT → AUDIT</text></g>
+<text x="82" y="260" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="800" fill="#f8fbff" letter-spacing="-1.5">Der Buy-Button</text>
+<text x="82" y="340" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="800" fill="#f8fbff" letter-spacing="-1.5">wird zum</text>
+<text x="82" y="420" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="800" fill="#f8fbff" letter-spacing="-1.5">Beweisstück.</text>
+<text x="86" y="790" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="520" fill="#b7c4d6">Agentic Commerce ist kein Checkout-</text>
+<text x="86" y="832" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="520" fill="#b7c4d6">Upgrade. Es ist Vertrauensinfrastruktur.</text>
+<text x="82" y="988" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#53657d">Agentic Commerce / Zustimmung / Vertrauen</text>
+</svg>
